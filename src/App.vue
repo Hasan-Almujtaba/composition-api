@@ -1,15 +1,30 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <lesson-one></lesson-one> -->
+  <!-- <lesson-two></lesson-two> -->
+  <!-- <lesson-three></lesson-three> -->
+  <!-- <lesson-six></lesson-six> -->
+  <lesson-seven></lesson-seven>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import LessonOne from "./components/LessonOne";
+// import LessonTwo from "./components/LessonTwo";
+// import LessonThree from "./components/LessonThree";
+// import LessonFour from "./components/LessonFour";
+// import LessonFive from "./components/LessonFive";
+// import LessonSix from "./components/LessonSix";
+import LessonSeven from "./components/LessonSeven";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // LessonOne,
+    // LessonTwo
+    // LessonThree
+    // LessonFour
+    // LessonFive
+    LessonSeven
   }
 }
 </script>
@@ -22,5 +37,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  list-style: none;
 }
 </style>
